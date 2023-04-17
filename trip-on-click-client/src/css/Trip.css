@@ -1,0 +1,329 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: initial;
+}
+
+input[type="radio"] {
+    margin-right: 1rem;
+    margin-left: 0.3rem;
+
+}
+
+input::-webkit-input-placeholder {
+    color: #3c354e;
+  }
+
+  .notExpired{
+    color:midnightblue;
+    text-decoration: underline;
+
+
+  }
+
+
+.logandreg2 {
+
+    background-size: cover;
+    background-image: url('C:\TripOnClick-App\trip-on-click-client\src\Images\maldives-gc98bc121f_1920.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+   
+    height: 100%;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+  
+  }
+
+  .overture {
+    display: inline-block;
+    font-size: 1.5em; /* adjust font size as needed */
+    margin-top: 91vh;
+    text-shadow: 0 0 3px #454444;
+
+color: #4c4a4a;
+text-align: center;  
+  position: fixed;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
+  
+  .overture span {
+    display: inline-block;
+    transform: rotate(-90deg) translateX(50%);
+    transform-origin: 0;
+  }
+
+
+.select1 {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 2rem;
+  width: 40vh;
+  height: 3rem;
+  margin-bottom: 5vh;
+  margin-right: 0vw;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left:0vw;
+
+
+
+}
+
+.select2 {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+    width: 40vh;
+    height: 3rem;
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    border: none;
+    outline: none;
+    color: #3c354e;
+    font-size: 1rem;
+    font-weight: bold;
+
+
+
+}
+
+.select2:focus {
+    color: #3c354e;
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.op{
+  border-radius: 15rem;
+}
+
+
+.attOptions{
+    margin-left: 0.3vw;
+}
+.inputDate {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+  
+    padding-right: 1vh;
+    height: 3rem;
+    padding-left: 1vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+    margin-right: 2vh;
+    border: none;
+    outline: none;
+    color: #3c354e;
+    font-size: 1rem;
+    font-weight: bold;
+
+
+
+}
+
+.inputDate:focus {
+    color: #3c354e;
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.error-message {
+    color: red;
+  }
+  
+
+.input3 {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+    height: 3rem;
+    width: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 15px;
+
+    margin-right: 2vh;
+    border: none;
+    outline: none;
+    color: #3c354e;
+    font-size: 1rem;
+    font-weight: bold;
+
+
+
+}
+
+.input3:hover {
+    color: #3c354e;
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem #b9abe0;
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+.radio {
+    margin-right: 4vh;
+}
+
+.slide {
+    clear: both;
+    border-radius: 50vh;
+    text-align: center;
+    background: white;
+    color:rgb(15, 15, 15);
+    font-size: auto;
+    content: "+";
+  
+}
+
+.popValid {
+    margin-top: -4vh;
+    margin-right: 35vh;
+    color: red;
+    position: fixed;
+  }
+  
+  .placeValid {
+    margin-top: -5vh;
+    position: fixed;
+    color: red;
+    margin-right: 19.5vw;
+  }
+  
+  
+  .areaValid {
+    margin-top: -4vh;
+    margin-right: 15vh;
+    position: fixed;
+    color: red;
+  }
+  
+  .dicValid {
+    margin-top: -4vh;
+    margin-right: 60vh;
+    position: fixed;
+    color: red;
+    
+  }
+  
+  .startValid {
+    margin-top: -6vh;
+    position: fixed;
+    color: red;
+    margin-right: 14vh;
+  
+  }
+  
+  .endValid {
+    margin-top: -6vh;
+    position: fixed;
+    color: red;
+    margin-right: 66vh;
+  
+  }
+
+.items-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+    flex-direction: column;
+    gap: 5px;
+}
+.loading {
+    display: flex;
+    margin-top: -5vh;
+    justify-content: center;
+    align-items: center!important;
+    background-color: white;
+}
+
+.button-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+}
+.eye{
+  height: 3vh;
+  opacity: 0.5;
+  margin-left: 43vh;
+  margin-top: -17vh;
+  background:transparent;
+  color: #3c354e;
+}
+.textbox{
+ 
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 15rem;
+  border: none;
+}
+.dropdown{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+justify-content: flex-start;
+border: none;
+}
+
+.drop{
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 4rem;
+padding: 1rem;
+border: none;
+}
+#dropdown{
+  justify-content: space-between;
+  border-radius: 4rem;
+  border: none;
+}
+#dropspace{
+  margin: 0 1rem 0 1rem;
+  border-radius: 4rem;
+  border: none;
+}
+#combo-box-demo{
+  border: none;
+}
+.slide{
+  background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.space{
+  display: inline-block;
+  width: 39rem;
+  margin-top: 1rem;
+}
+.item1{
+  float: left;
+}
+.item2{
+  float: right;
+}
+.DropFix{
+  border-radius: 10rem;
+  box-sizing: none;
+  border: none;
+}

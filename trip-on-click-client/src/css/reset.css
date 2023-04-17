@@ -1,0 +1,32 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: initial;
+}
+.logandreg4 {
+
+    background-size: cover;
+    background-image: url("C:\TripOnClick-App\trip-on-click-client\src\Images\passwordImage3.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10vh;
+    text-align: center;
+  
+    
+  
+  }
+  .notExpired2{
+    color:rgb(30, 25, 79);
+  }
+  .password{
+    margin-top: -10vh;
+  }
+  .eye1{
+    height: 3vh;
+    opacity: 0.5;
+    margin-left: -43vh;
+    margin-top: -18vh;
+    background:transparent;
+    color: #3c354e;
+  }

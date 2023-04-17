@@ -1,0 +1,14 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: initial;
+}
+/* .picfix{
+  height: fit-content;
+  width: 10rem;
+} */
+.attractionpic{
+  /* float: left;
+    width:  500px;
+    height: 500px;
+    background-size: cover; */
+}

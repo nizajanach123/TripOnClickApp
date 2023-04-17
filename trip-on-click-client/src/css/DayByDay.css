@@ -1,0 +1,238 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: initial;
+
+}
+
+.per{
+  color:black ;
+}
+.cards{
+  top:10rem;
+}
+.buttons{
+ 
+  left: 29rem;
+  position: relative;
+ 
+
+}
+
+.min{
+  margin-right: 0.2vw;
+  margin-top: -0.2vh;
+}
+.caldbd{
+width: 5vh; 
+height: 5vh;
+position: fixed;
+margin-left: 171vh;}
+.button{
+ 
+  padding: 3px;
+  margin: 1rem;
+  background:linear-gradient(to right, lightblue 10%,lightgreen 90%); ;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+ padding: 10px;
+  border: none;
+  color: black;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.car{
+  height: 2rem;
+  width: 2rem;
+  left: 259px;
+  bottom: 117px;
+  position: relative;
+}
+
+
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  height:  auto;
+  margin-left: -1px;
+  background-color: #d9d9d9;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.timeline-item:before,
+.timeline-item:after {
+  content: '';
+  display: table;
+}
+
+.timeline-item:after {
+  clear: both;
+}
+
+.timeline-item:before,
+.timeline-item:after {
+  content: '';
+  display: table;
+  display: inline-block;
+}
+
+.timeline-item:after {
+  clear: both;
+  display: inline-block;
+}
+
+.timeline-item .timeline-content {
+  position: relative;
+  margin-left: 80px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item .timeline-content h3 {
+  margin-top: 0;
+  color: #303f9f;
+}
+
+.timeline-item .timeline-content > p {
+  margin: 1em 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.timeline-item .timeline-content {
+  position: absolute;
+  right: -15px;
+  top: 16px;
+  padding: 3px 7px;
+  background-color: #303f9f;
+  color: #fff;
+  display: inline-block;
+}
+.car{
+  font-size: 10rem;
+  margin-top: 15vh;
+  margin-right: 75vh;
+}
+.timeline-item-date{
+  color: black bold;
+  font-size: 20px;
+  padding: 1rem;
+
+  
+}
+.scrollbar{  overflow-y:scroll;
+}
+
+.bed{
+height:4vh;
+margin-top: 24vh;
+margin-left: 49vh;
+}
+
+
+.dates{
+display:flex;
+padding-top: 50vh;
+margin-bottom: 8vh;
+margin-top: -50vh;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.travelTime{
+
+margin-left: 28vh;
+margin-top: -8vh;
+margin-bottom: 4rem;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+}
+
+.pagefix{
+display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: -7rem;
+}
+.alldates{
+margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+height: 50vh;
+position: absolute;
+right: 10vw;
+}
+
+.datesButtons{  
+
+width: 6rem;
+color: #1677ff;
+background-color: transparent;
+border-color: #1677ff;
+box-shadow: none;
+
+}
+
+.dates-dayByDay{
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 6vh;
+  border-radius: 20px;
+  color: #1677ff;
+  background-color: transparent;
+  border-color: #1677ff;
+  width: 9vw;
+}
+.DayByDay-dates-div{
+  margin-top: 4rem;
+  overflow-y: auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 10vw;
+}
+.cardsmap{
+  margin-left: 21rem;
+
+}
+.nextToEachOther{
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+.time{
+  height: 22px;
+  width: 22px;
+  margin-right: 16rem;
+  margin-top: -8vh;
+}

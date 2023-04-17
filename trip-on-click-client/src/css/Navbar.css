@@ -1,0 +1,64 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    /* height: 3rem;
+    width: 3rem; */
+    height: 53px;
+    width: 65px;
+    justify-content: start;
+    display: inherit;
+    /* margin-left: 5px; */
+    /* left: -7rem; */
+    right: 36rem;
+    position: relative;
+    background-color: none;
+    padding: none;
+    margin: none;
+    
+}
+.navbar{
+  margin:6px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  left: 0;
+  /* z-index: 9999; */
+
+}
+
+.log{
+    /* left: 1rem; */
+    /* height: 40px;
+  margin-right: 20px; */
+}
+.personallogo{
+    font-size: 24px;
+    margin: 0 0px 0px 15px
+}
+.fix2{
+    right: 1rem;
+    position: absolute;
+}
+.me{
+    border-radius: 10px ;
+}
+
+#but1 , #but2{
+  border-radius: 24px;
+  
+}
+/* .navbarfix{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+} */
+.navbarFixed{
+  position: fixed;
+}

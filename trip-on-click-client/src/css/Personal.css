@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: initial;
+  }
+.page{
+    background-color: aqua;
+}
+
+
+.allCard{
+    /* justify-content: center; */
+    display: flex;
+    bottom: -8rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    /* justify-content: space-between; */
+    padding-left: 106px;
+        /* padding-left: 235px;
+    padding-right: 115px */
+    /* display: inline-block; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px; */
+    
+    
+}
+
+
+.first{
+    /* float: left;
+    display: inline-block; */
+    display: flex;
+  border-spacing: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+    
+}
+
+.per{
+    bottom: -4rem;
+    position: relative;
+    text-align: center;
+}
+.plus-image{
+    height: 2rem;
+    width: 2rem;
+    bottom: 3rem;
+    position: relative;
+}
+.card{
+    height: 3rem;
+    width: 3rem;
+    display:inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+.but{
+        width: 15vw;
+    /* margin-top: 6rem; */
+    top: 80px;
+    position: relative;
+    margin-left: 95vh;
+}
+.container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-start; */
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+}
+#item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-grow: 4;
+    order: 5;
+    flex-shrink: 3;
+    flex-basis:  auto;
+     /* padding-right: 46px; */
+    padding-top: 11px; 
+}
